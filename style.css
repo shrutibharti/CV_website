@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  padding:10px;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 40px;
+  padding:20px;
+  
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+  padding:20px;
+  border-radius: 40px;
+}
+
+
+
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+.P_info{
+    text-align: left;
+    font-size: large;
+    font-weight: 600;
+    background: #aaa;
+  
+    background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+
+}
+.phn_no{
+padding:0px;
+margin: 3px;
+}
+.mbn_no{
+padding: 0px;
+margin: 3px;
+}
+.eml{
+padding: 0px;
+margin: 3px;
+}
+.lkn{
+padding:0px;
+margin: 3px;
+}
+.skills{
+    text-align: left;
+    font-size: large;
+    
+    font-weight: 600;
+    background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+ 
+}
+.lang{
+    
+    text-align: left;
+    font-size: large;
+    font-weight: 600;
+    background: #aaa;
+  
+ 
+  width: 100%;
+  padding: 20px;
+  
+
+}
+.abt{
+    text-align: justify;
+}
+.exp{
+    border-top:2px solid rgb(224, 227, 230);
+    border-bottom:2px solid rgb(231, 234, 237);
+    padding:10px;
+    font-size: large;
+font-weight: 700;
+}
